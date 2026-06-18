@@ -4,8 +4,7 @@
 将体系沿 z 方向均分为若干层，分别计算每层的 PDOS，最终生成以 z 坐标为横轴、能级为纵轴、
 PDOS 强度为颜色的二维色块图。
 
- <font size="5" color="red">典型应用：界面带阶、缺陷态定位</font>
- <span style="font-size:24px; font-weight:bold; color:#3366ff;">大号蓝色粗体</span>
+**典型应用：界面带阶、缺陷态定位**
 
 ## 目录结构
 
