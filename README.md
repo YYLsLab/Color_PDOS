@@ -5,6 +5,7 @@
 PDOS 强度为颜色的二维色块图。
 
  <font size="5" color="red">典型应用：界面带阶、缺陷态定位</font>
+ <span style="font-size:24px; font-weight:bold; color:#3366ff;">大号蓝色粗体</span>
 
 ## 目录结构
 
