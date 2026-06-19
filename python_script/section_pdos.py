@@ -16,7 +16,10 @@ def add_tag_column(input_path, output_path):
             in_atom_section = False
 
         if in_atom_section and header_marker not in stripped:
-            out_lines.append(line.rstrip("\n") + "  1\n")
+            if len(line.rstrip("\n").split()) >= 8:
+                out_lines.append(line.rstrip("\n").rsplit(None, 1)[0] + "  1\n")
+            else:
+                out_lines.append(line.rstrip("\n") + "  1\n")
         else:
             out_lines.append(line)
 
