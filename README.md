@@ -167,7 +167,7 @@ python plot_section.py
 
 ## 旧版脚本（Fortran + bash）
 
-`fortran_script/` 目录保留了原始的 Fortran + bash 实现作为历史参考，已被 Python 版替代：
+`fortran_script/` 目录保留了原始的 Fortran + bash 实现作为历史参考：
 
 | 文件 | 说明 |
 |---|---|
