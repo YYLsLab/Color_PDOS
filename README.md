@@ -176,12 +176,6 @@ python plot_section.py
 | `merge_DOS.x` (源码 `src/merge_DOS.f90`) | 收集每层 PDOS |
 | `merge_all_origin.x` (源码 `src/merge_all_origin.f90`) | 合并 z 坐标和 DOS 数据 |
 
-旧版与 Python 版的主要区别：
-- 旧版用 vim + sort 排序，Python 版用 `np.argsort`
-- 旧版每层指定固定原子数，Python 版用 `--layers` 均分
-- 旧版需要手动修改脚本内的参数，Python 版用 CLI 参数
-- 旧版 z 坐标为分数坐标，Python 版自动转换为笛卡尔坐标（Å）
-
 ## `plot_DOS_interp.x` 说明
 
 `plot_dos_interp/` 目录包含 PWmat 的 `plot_DOS_interp.x` 源码和编译好的二进制。
