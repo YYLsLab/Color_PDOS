@@ -1,3 +1,5 @@
+## 2026-7-1 add arbitrary_direction-ZhaoYu 
+沿着x，y，z任意方向绘制
 # Color-PDOS: 层分辨投影态密度图工具
 
 基于 PWmat 的 `plot_DOS_interp.x` 实现层分辨 PDOS（投影态密度）计算与可视化。
@@ -17,6 +19,7 @@ color-pdos/
 ├── python_script/              # Python 版脚本
 │   ├── section_pdos.py          #   一站式：分层 + 调用 + 合并 + 画图
 │   └── plot_section.py          #   独立画图脚本（已有 section_dos.dat 时用）
+├── arbitrary_direction-ZhaoYu # 沿着x，y，z任意方向绘制，基于 fortran_script
 ├── fortran_script/             # 旧版 Fortran + bash 实现（历史参考）
 │   ├── Color-PDOS.sh
 │   ├── Color-PDOS_order.sh
@@ -28,9 +31,6 @@ color-pdos/
 │       ├── merge_DOS.f90
 │       └── merge_all_origin.f90
 └── plot_dos_interp/            # PWmat 自带工具（源码 + 二进制）
-    ├── plot_DOS_interp.f90
-    ├── plot_DOS_interp.x
-    └── ... (依赖模块)
 ```
 
 ## 工作原理
